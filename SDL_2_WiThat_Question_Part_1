@@ -1,0 +1,40 @@
+SDL 2 What is that? Partie 1
+
+1) Qu’est-ce que la SDL 2 ?
+
+	La SDL est l'abreviation de "Simple DirectMedia Layer", il s'agit d'une bibliothèque de dévellopement multiplateforme qui permettra l'écriture de programme graphique. Elle permet aussi l'utilisation du materiel audio, ainsi que de gérer les évènements clavier, souris ou manette.
+
+	Cette bibliothèque est utilisée dans des jeux, mais aussi par des émulateur et logiciel de lecture vidéo.
+
+	Elle prend donc en charge des plateformes tel que Windows, Mac OS ou Linux, IOS et Android. Pour d'autres sorte de plateformes, il faut aller voir leur code source.
+
+	La SDL est native du langage C et peut être compatible avec le langage C++.
+
+	la SDL 2 est distribuée sous une licence qui permet d'utiliser librement SDL dans n'importe quel logiciel.
+
+
+
+
+
+2) Que peut faire la SDL 2 ? (10 points)
+
+
+Elle permet l'écriture de programme graphique, ainsi que l'utilisation du materiel audio, ainsi que de gérer les évènements clavier, souris ou manette.
+
+
+3) Sur quelles plateformes fonctionne la SDL 2 ? (10
+points)
+
+
+Elle fonctionne sur des plateformes tel que Windows, Mac OS ou Linux, IOS et Android. Pour d'autres sorte de plateformes, il faut aller voir leur code source.
+
+
+
+4) Comment obtenir et installer la SDL 2 sur un EDI ?
+Donnez les étapes de la configuration d’un projet SDL2
+avec CodeBlocks (gcc). (10 points)
+
+
+
+5) Quelles sont les différences entre SDL 1 et SDL 2 ? (5
+points)
