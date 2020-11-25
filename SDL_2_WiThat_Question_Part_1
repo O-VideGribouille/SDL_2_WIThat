@@ -34,6 +34,46 @@ Elle fonctionne sur des plateformes tel que Windows, Mac OS ou Linux, IOS et And
 Donnez les étapes de la configuration d’un projet SDL2
 avec CodeBlocks (gcc). (10 points)
 
+1- Allez sur le site : https://www.libsdl.org/index.php
+
+2- Dans l'encaredement "Download", cliquez sur le titre "SDL Releases"
+
+3- Descendre à la partie "Development Libraries" et cliquez (si vous êtes sous windows) sur SDL2-devel-2.0.12-mingw.tar.gz
+
+4- Après le téléchargement du fichier, dezipez-le.
+
+6- Ouvrez votre EDI (ici CodeBlocks) et créez un nouveau projet.
+
+5- Copiez le dossier extrait (SDL2-2.0.12) et collez-le dans le fichier de votre programme CodeBlocks.
+
+6- Retournez sur CodeBlocks, sur votre nouveau programme.
+
+7- Allez dans l'encadrement "Management" et faite un clique droit sur le nom du projet. Slectionnez "Build options...".
+
+8- Allez dans la partie "Linker settings".
+
+9- Dans la partie "link libraries", appuyer sur "Add". Puis sur le bouton dossier pour ensuite selectionner et entrer dans le dossier SDL2-2.0.12.
+Puis selectionnez et entrez dans le dossier x86_64-w64-mingw32 (si cela corespond bien a votre version). De là, selectionner et entrez dans le dossier lib. Selectionnez ensuite "libSDL2main.a".
+
+10- Refaite la manipulation pour acceder au dossier lib et selectionnez cette fois-ci "libSDL2.dll.a"
+
+11- Dans la partie "Other linker options", écrivez : -lmingw32
+
+12- Allez dans la partie "Search directories".
+
+13- Dans la partie "Compiler" (ouvert par défaut).
+
+14- Appuyez sur "Add". Puis sur le bouton dossier pour ensuite selectionner et entrer dans le dossier SDL2-2.0.12. Puis selectionnez et entrez dans le dossier x86_64-w64-mingw32 (si cela corespond bien a votre version). Selectionnez le dossier include et cliquer sur "Sélectionnez un dossier". Puis cliquer sur ok.
+
+15- Allez ensuite dans la partie "Linker".
+
+16- Appuyez sur "Add". Puis sur le bouton dossier pour ensuite selectionner et entrer dans le dossier SDL2-2.0.12. Puis selectionnez et entrez dans le dossier x86_64-w64-mingw32 (si cela corespond bien a votre version). Selectionnez le dossier lib et cliquer sur "Sélectionnez un dossier". Puis cliquer sur ok.
+
+17- Après avoir fait ces modifications, validez-les en appyant sur OK.
+
+18- De retour sur la page de programmation main.c, incluez à la suite des deux premiers #include, celui-ci :#include <SDL2/SDL.h>
+
+19- Ajouter dans le int main les arguments suivant : int argc, char *argv[]
 
 
 5) Quelles sont les différences entre SDL 1 et SDL 2 ? (5
